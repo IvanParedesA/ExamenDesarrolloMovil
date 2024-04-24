@@ -7,6 +7,6 @@ class NinjaRepository {
 
     private val apiNinja = NinjaApiClient()
 
-    suspend fun getNinjaList(limit:Int): NinjaBase? = apiNinja.getPokemonList(limit)
+    suspend fun getNinjaList(limit:Int): NinjaBase? = apiNinja.getNinjaList(limit)
 
 }
